@@ -1,8 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+/*font-family: 'Roboto', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+/*font-family: 'Merriweather', serif;*/
+
 /*======CSSreset======*/
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+/*======Kleuren======*/
+:root {
+    --purple: #5722C;
+    --blue: #4845E4;
+    --pink: #ED4385;
+    --zwart: #0c0c0c;
+    --light-purple: #F2F0FF;
+    --light-grey: #F3F6F9;
+    --grey: #7A7A7A;
 }
 
 /*======globals======*/
