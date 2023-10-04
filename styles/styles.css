@@ -296,3 +296,57 @@ footer  {
 }
 
 
+/*=====Media Queries======*/
+@media screen and (max-width: 576px) {
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    ul {
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+    }
+
+    .information_section {
+        max-width: 96%;
+    }
+
+.picture_text_section article{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 5px;
+    justify-content: space-evenly;
+}
+
+.picture {
+    width: 100%;
+}
+
+.variety_photo_half, .photo_half {
+    margin: 0 0 40px 0;
+}
+
+.tile_section {
+    display: flex;
+    justify-content: center;
+}
+
+.inner_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.form_body {
+    width: 90%;
+}
+
+footer > p {
+    font-size: 14px;
+}
+}
